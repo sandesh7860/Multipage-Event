@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30, 0.7)),url(Img.back.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: Inline-block;
+    padding: 10px 20px;
+
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: goldenrod;
+    transition: 4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+
+h1,
+h4{
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0px 20px;
+
+}
+h6{
+    color: beige;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-bottom: 50px;
+
+}  
+.btn{
+    background-color: goldenrod;
+    color: rgb(16, 13, 13);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}    
+.btn:hover{
+    transform: scale(1.2);
+}
+.events{
+    background-color: dark rgb(199, 216, 199);
+    width:100%;
+    padding: 260px 0px;
+
+    
+}
+.events img{
+    position: center;
+    height: auto;
+    width: 550px;
+    
+
+}
+.events-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.events-text h2{
+    color: rgb(21, 21, 19);
+    font-size: 50px;
+    margin-bottom: 20px 0px 20px;
+
+}
+.events-text p{
+    color: rgb(21, 21, 19);
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom: 50px;
+
+}
+/* .sponser{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    background-color: rgb(28, 28, 73);
+}
+.sposer-text{
+    width: 550px;
+    
+
+}
+.sponser-text h1{
+    color:rgb(5, 23, 5)
+
+
+} */
+.contact{
+    position: center;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    background-color: rgb(41, 74, 41);
+}
+.contact img{
+    position: center;
+    height: auto;
+    width: 550px;
+}
+.contact-text{
+    width: 430;
+}
+.contact-text h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+    
